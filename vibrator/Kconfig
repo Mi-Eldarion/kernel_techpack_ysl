@@ -1,4 +1,4 @@
-config LEDS_QPNP_HAPTICS
+config LEDS_QPNP_HAPTICS_MI8953
 	tristate "Haptics support for QPNP PMIC"
 	depends on LEDS_CLASS && MFD_SPMI_PMIC
 	help

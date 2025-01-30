@@ -1,1 +1,1 @@
-obj-$(CONFIG_LEDS_QPNP_HAPTICS)	+= leds-qpnp-haptics.o
+obj-$(CONFIG_LEDS_QPNP_HAPTICS_MI8953)	+= leds-qpnp-haptics-mi8953.o

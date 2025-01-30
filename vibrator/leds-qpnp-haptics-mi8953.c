@@ -2721,13 +2721,13 @@ static const struct dev_pm_ops qpnp_haptics_pm_ops = {
 };
 
 static const struct of_device_id hap_match_table[] = {
-	{ .compatible = "qcom,qpnp-haptics" },
+	{ .compatible = "qcom,qpnp-haptics-mi8953" },
 	{ },
 };
 
 static struct platform_driver qpnp_haptics_driver = {
 	.driver		= {
-		.name		= "qcom,qpnp-haptics",
+		.name		= "qcom,qpnp-haptics-mi8953",
 		.of_match_table	= hap_match_table,
 		.pm		= &qpnp_haptics_pm_ops,
 	},
