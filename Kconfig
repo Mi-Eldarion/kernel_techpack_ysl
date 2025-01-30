@@ -1,2 +1,3 @@
 source "techpack/mi8953/input/Kconfig"
+source "techpack/mi8953/leds/Kconfig"
 source "techpack/mi8953/power_supply/Kconfig"
